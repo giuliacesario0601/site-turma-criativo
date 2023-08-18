@@ -1,6 +1,7 @@
 .cabecalho{
   background-color: #1257A8;
   display: flex;
+  justify-content: space-around;
 
 
 .cabecalho-imagem{
