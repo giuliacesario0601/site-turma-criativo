@@ -28,8 +28,10 @@ width: 10%;
 
 
 .escola{
-  background-color: linear-gradient(#383D58, #4EBFE9);
   color: black;
   display: flex;
 }
 
+#grad {
+  background-image: linear-gradient(red, yellow);
+}
