@@ -3,6 +3,9 @@
   padding: 0;
 }
 
+body{font-family: 'Playfair Display', serif;
+}
+
 .cabecalho{
   background-color: #1257A8;
   display: flex;
