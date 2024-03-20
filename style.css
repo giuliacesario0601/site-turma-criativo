@@ -121,3 +121,20 @@ aba-conteudo{
 .ativo{
   display: block;
 }
+.fundo-preto{
+  background: black;
+  color: white;
+}
+.botao{
+  padding: 2em; 
+}
+.contador{
+  font-size: 20px;
+  text-align: center;
+}
+.contador{
+  font-size: 20px;
+  text-align: center;
+}
+
+
