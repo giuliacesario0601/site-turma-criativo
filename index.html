@@ -127,28 +127,6 @@
                 <div class="aba-conteudo">2</div>
 
                 <div class="aba-conteudo">3</div>
-                
-                const botoes = document.querySelectorAll(".botao");
-const textos = document.querySelectorAll(".aba-conteudo");
-
-//Código omitido
-
-const botoes = document.querySelectorAll(".botao");
-const textos = document.querySelectorAll(".aba-conteudo");
-
-for (let i = 0; i < botoes.length; i++) {
-    botoes[i].onclick = function () {
-
-        for (let j = 0; j < botoes.length; j++) {
-            botoes[j].classList.remove("ativo");
-            textos[j].classList.remove("ativo");
-        }
-
-        botoes[i].classList.add("ativo");
-        textos[i].classList.add("ativo");
-    }
-}
-//Código omitido
 
 </div>
             <div class="abas-textos">
@@ -203,70 +181,6 @@ for (let i = 0; i < botoes.length; i++) {
     <script src="main.js"></script>
 </body>
 </html>
-
-//Código omitido
-
-const contadores = document.querySelectorAll(".contador");
-
-//Código omitido
-
-
-//Código omitido
-
-const contadores = document.querySelectorAll(".contador");
-
-contadores[0].textContent = "Contagem regressiva";
-
-//Código omitido
-
-const contadores = document.querySelectorAll(".contador"); 
-const tempoObjetivo1 = new Date("2024-10-05"); 
-
-contadores[0].textContent = tempo0bjetivo1; 
-
-const botoes = document.querySelectorAll(".botao");
-const textos = document.querySelectorAll(".aba-conteudo");
-
-for (let i = 0; i < botoes.length; i++) {
-    botoes[i].onclick = function () {
-
-        for (let j = 0; j < botoes.length; j++) {
-            botoes[j].classList.remove("ativo");
-            textos[j].classList.remove("ativo");
-        }
-
-        botoes[i].classList.add("ativo");
-        textos[i].classList.add("ativo");
-    }
-}
-
-const contadores = document.querySelectorAll(".contador");
-const tempoObjetivo1 = new Date("2023-10-05T00:00:00");
-let tempoAtual = new Date();
-
-contadores[0].textContent = tempoObjetivo1 - tempoAtual;
-
-const botoes = document.querySelectorAll(".botao");
-const textos = document.querySelectorAll(".aba-conteudo");
-
-botoes[i].classList.add("ativo");
-textos[i].classList.add("ativo");
-
-botoes[j].classList.remove("ativo");
-textos[j].classList.remove("ativo");
-
-for (let i = 0; i < botoes.length; i++) {
-    botoes[i].onclick = function () {
-
-        for (let j = 0; j < botoes.length; j++) {
-            botoes[j].classList.remove("ativo");
-            textos[j].classList.remove("ativo");
-        }
-
-        botoes[i].classList.add("ativo");
-        textos[i].classList.add("ativo");
-    }
-}
 <div class="aba-conteudo ativo">
     <h3 class="aba-conteudo-titulo-principal">Estudar 4 cursos na Alura</h3>
     <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
@@ -517,29 +431,7 @@ const tempoObjetivo1 = new Date("2020-10-05T00:00:00");
 
 return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
 
-if (tempoFinal > 0){
-    return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
-} else {
-    return "Prazo Finalizado";
-}
-
-const tempoObjetivo2 = new Date("2023-12-05T00:00:00");
-const tempoObjetivo3 = new Date("2023-12-30T00:00:00");
-const tempoObjetivo4 = new Date("2024-02-01T00:00:00");
-
-contadores[0].textContent = calculaTempo(tempoObjetivo1);
-contadores[1].textContent = calculaTempo(tempoObjetivo2);
-contadores[2].textContent = calculaTempo(tempoObjetivo3);
-contadores[3].textContent = calculaTempo(tempoObjetivo4);
-
-const tempos = [tempoObjetivo1,tempoObjetivo2,tempoObjetivo3,tempoObjetivo4];
-
-contadores[0].textContent = calculaTempo(tempoObjetivo1); //Antes
-
-contadores[0].textContent = calculaTempo(tempos[0]); // Depois
-
-// Para cada objetivo na lista de contadores
- for (let i=0; i<contadores.length;i++){
+if (tempoFinal >{
 //Calcular o tempo usando a função e associá-lo ao objetivo
         contadores[i].textContent = calculaTempo(tempos[i]);   
 
@@ -557,28 +449,6 @@ contadores[0].textContent = calculaTempo(tempos[0]); // Depois
         comecaCronometro();
 
         return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
-
-        if (tempoFinal > 0){
-            return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
-        } else {
-            return "Prazo Finalizado";
-        }
-
-        function geraCorAleatoria() {
-            const r = Math.floor(Math.random() * 256);
-            const g = Math.floor(Math.random() * 256);
-            const b = Math.floor(Math.random() * 256);
-            const rgb = "rgb("+r+","+g+","+b+")";
-            document.body.style.backgroundColor = rgb;
-          }
-          
-          setInterval(geraCorAleatoria(), 1000);
-
-          <h1 class="informacao">
-           const nome = 'Eduarda';
-const idade = 26;
-const cidade = 'Recife';
-const titulo = document.querySelector('.informacao'); >/h1>
 
 
          </section>
